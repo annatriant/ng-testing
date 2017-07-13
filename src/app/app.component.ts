@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
 <header class="container">
   <h1>{{heading}}</h1>
 </header>
-<my-races></my-races>
+<router-outlet></router-outlet>
 `,
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   heading = "Ultra Racing Schedule"
