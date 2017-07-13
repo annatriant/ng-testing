@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { RacesComponent } from './races/races.component';
 import { RaceService } from './races/race.service';
+import { RaceComponent } from './race/race.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RacesComponent
-  ],
+    RacesComponent,
+    RaceComponent
+    ],
   imports: [
     BrowserModule,
     FormsModule,
